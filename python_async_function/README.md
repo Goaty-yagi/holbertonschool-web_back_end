@@ -37,3 +37,11 @@ This project is based on the learning objectives - see the [LEARNING_OBJECTIVES]
 **Requirement:** <br>
 Use the random module.
 
+
+### 1. Let's execute multiple coroutines at the same time with async
+
+**File:** [1-concurrent_coroutines.py](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/python_async_function/1-concurrent_coroutines.py)<br>
+**Description:** Import wait_random from the previous python file that you’ve written and write an async routine called wait_n that takes in 2 int arguments (in this order): n and max_delay. You will spawn wait_random n times with the specified max_delay.<br>
+**Requirement:** <br>
+wait_n should return the list of all the delays (float values). The list of the delays should be in ascending order without using sort() because of concurrency.
+
