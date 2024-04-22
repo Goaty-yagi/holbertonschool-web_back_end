@@ -7,7 +7,7 @@ from typing import Optional, Any, Sequence
 
 def safe_first_element(lst: Sequence[Any]) -> Optional[Any]:
     """
-    returns the first element of the list
+    Retrieve the first element of the list
     """
     if lst:
         return lst[0]
