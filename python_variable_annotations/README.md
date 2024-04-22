@@ -102,3 +102,10 @@ None
 **Description:** Write a type-annotated function make_multiplier that takes a float multiplier as argument and returns a function that multiplies a float by multiplier.<br>
 **Requirement:** <br>
 None
+
+### 9. Let's duck type an iterable object
+
+**File:** [9-element_length.py](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/python_variable_annotations/9-element_length.py)<br>
+**Description:** Annotate the below function’s parameters and return values with the appropriate types.<br>
+**Requirement:** <br>
+None
