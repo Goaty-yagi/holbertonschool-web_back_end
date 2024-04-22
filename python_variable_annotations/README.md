@@ -61,3 +61,12 @@ None
 **Requirement:** <br>
 None
 
+### 4. Define variables
+
+**File:** [4-define_variables.py](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/python_variable_annotations/4-define_variables.py)<br>
+**Description:** Define and annotate the following variables with the specified values.<br>
+**Requirement:** <br>
+- a, an integer with a value of 1
+- pi, a float with a value of 3.14
+- i_understand_annotations, a boolean with a value of True
+- school, a string with a value of “Holberton”
