@@ -78,3 +78,11 @@ None
 **Description:** Write a type-annotated function sum_list which takes a list input_list of floats as argument and returns their sum as a float.<br>
 **Requirement:** <br>
 None
+
+
+### 6. Complex types - mixed list
+
+**File:** [6-sum_mixed_list.py](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/python_variable_annotations/6-sum_mixed_list.py)<br>
+**Description:** Write a type-annotated function sum_mixed_list which takes a list mxd_lst of integers and floats and returns their sum as a float.<br>
+**Requirement:** <br>
+None
