@@ -9,7 +9,7 @@ This repository contains examples and resources for using variable annotations i
 
 ## Learning Objectives
 
-This project is based on the learning objectives - see the [LEARNING_OBJECTIVES](https://github.com/Goaty-yagi/holbertonschool-higher_level_programming/blob/main/python_variable_annotations/LEARNING_OBJECTIVES.md) file for details.
+This project is based on the learning objectives - see the [LEARNING_OBJECTIVES](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/python_variable_annotations/LEARNING_OBJECTIVES.md) file for details.
 
 ## Requirements
 
@@ -33,15 +33,23 @@ This project is based on the learning objectives - see the [LEARNING_OBJECTIVES]
 
 ### 0. Integers addition
 
-**File:** [0-add.py](https://github.com/Goaty-yagi/holbertonschool-higher_level_programming/blob/main/python-test_driven_development/0-add.py)<br>
+**File:** [0-add.py](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/python_variable_annotations/0-add.py)<br>
 **Description:** Write a type-annotated function add that takes a float a and a float b as arguments and returns their sum as a float.<br>
 **Requirement:** <br>
 None
 
 ### 1. Basic annotations - concat
 
-**File:** [1-concat.py](https://github.com/Goaty-yagi/holbertonschool-higher_level_programming/blob/main/python-test_driven_development/1-concat.py)<br>
+**File:** [1-concat.py](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/python_variable_annotations/1-concat.py)<br>
 **Description:** Write a type-annotated function concat that takes a string str1 and a string str2 as arguments and returns a concatenated string.<br>
+**Requirement:** <br>
+None
+
+
+### 2. Basic annotations - floor
+
+**File:** [2-floor.py](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/python_variable_annotations/2-floor.py)<br>
+**Description:** Write a type-annotated function floor which takes a float n as argument and returns the floor of the float.<br>
 **Requirement:** <br>
 None
 
