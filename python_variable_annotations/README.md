@@ -109,3 +109,29 @@ None
 **Description:** Annotate the below function’s parameters and return values with the appropriate types.<br>
 **Requirement:** <br>
 None
+
+### 10. Duck typing - first element of a sequence
+
+**File:** [100-safe_first_element.py](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/python_variable_annotations/100-safe_first_element.py)<br>
+**Description:** Augment the following code with the correct duck-typed annotations.<br>
+**Requirement:** <br>
+```python
+# The types of the elements of the input are not known
+def safe_first_element(lst):
+    if lst:
+        return lst[0]
+    else:
+        return None
+```
+
+```python
+bob@dylan:~$ cat 100-main.py 
+#!/usr/bin/env python3
+
+safe_first_element =  __import__('100-safe_first_element').safe_first_element
+
+print(safe_first_element.__annotations__)
+
+bob@dylan:~$ ./100-main.py 
+{'lst': typing.Sequence[typing.Any], 'return': typing.Optional[typing.Any]}
+```
