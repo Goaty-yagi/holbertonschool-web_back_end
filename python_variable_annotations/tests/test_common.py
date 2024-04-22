@@ -45,7 +45,7 @@ class BaseTest(unittest.TestCase):
 
     def first_line_shebang_test(self, path):
         """ Testing the first line of a specific file is expected. """
-        shebang = "#!/usr/bin/env/ python3\n"
+        shebang = "#!/usr/bin/env python3\n"
 
         with open(path, 'r') as file:
             lines = file.readlines()
