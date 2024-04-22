@@ -79,6 +79,10 @@ print("Random number:", random.random())
 # Generate a random integer between 1 and 10
 print("Random integer:", random.randint(1, 10))
 
+
+# Generate a random float between 1 and 10
+print("Random float:", random.uniform(0, 10))
+
 # Select a random element from a list
 my_list = [1, 2, 3, 4, 5]
 print("Random choice:", random.choice(my_list))
