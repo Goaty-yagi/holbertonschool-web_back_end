@@ -38,3 +38,10 @@ This project is based on the learning objectives - see the [LEARNING_OBJECTIVES]
 **Requirement:** <br>
 None
 
+### 1. Basic annotations - concat
+
+**File:** [1-concat.py](https://github.com/Goaty-yagi/holbertonschool-higher_level_programming/blob/main/python-test_driven_development/1-concat.py)<br>
+**Description:** Write a type-annotated function concat that takes a string str1 and a string str2 as arguments and returns a concatenated string.<br>
+**Requirement:** <br>
+None
+
