@@ -53,3 +53,11 @@ None
 **Requirement:** <br>
 None
 
+
+### 3. Basic annotations - to string
+
+**File:** [3-to_str.py](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/python_variable_annotations/3-to_str.py)<br>
+**Description:** Write a type-annotated function to_str that takes a float n as argument and returns the string representation of the float.<br>
+**Requirement:** <br>
+None
+
