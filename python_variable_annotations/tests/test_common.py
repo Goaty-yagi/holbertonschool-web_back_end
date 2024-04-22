@@ -6,6 +6,7 @@ of python projects including:
 2, file_is_executable
 3, pycode_style
 4, all_doc_test
+5, mypy
 
 This tests all python file recursively from the base_dir
 all the way to the end of the most nested file except files in exceptions.
@@ -44,7 +45,7 @@ class BaseTest(unittest.TestCase):
 
     def first_line_shebang_test(self, path):
         """ Testing the first line of a specific file is expected. """
-        shebang = "#!/usr/bin/python3\n"
+        shebang = "#!/usr/bin/env/ python3\n"
 
         with open(path, 'r') as file:
             lines = file.readlines()
