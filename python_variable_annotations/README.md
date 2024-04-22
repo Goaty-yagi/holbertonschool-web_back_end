@@ -94,3 +94,11 @@ None
 **Description:** Write a type-annotated function to_kv that takes a string k and an int OR float v as arguments and returns a tuple. The first element of the tuple is the string k. The second element is the square of the int/float v and should be annotated as a float.<br>
 **Requirement:** <br>
 None
+
+
+### 8. Complex types - functions
+
+**File:** [8-make_multiplier.py](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/python_variable_annotations/8-make_multiplier.py)<br>
+**Description:** Write a type-annotated function make_multiplier that takes a float multiplier as argument and returns a function that multiplies a float by multiplier.<br>
+**Requirement:** <br>
+None
