@@ -7,7 +7,7 @@ import math
 
 def floor(n: float) -> int:
     """
-    This funcion receive two strings which
-    will be  and return string type val.
+    This function receive a float which
+    will be rounded down and return it as int type.
     """
     return math.floor(n)
