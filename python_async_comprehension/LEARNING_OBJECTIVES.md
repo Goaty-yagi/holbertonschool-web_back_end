@@ -37,6 +37,8 @@ To type-annotate generators in Python, you can use the Generator type from the t
 - ArgType: Specifies the type of the argument passed to the send() method of the generator, if any. If the generator does not use send(), this is specified as None.
 - ReturnType: Specifies the type of the value returned by the generator when it terminates. If the generator does not return a value (i.e., it continues indefinitely), this is specified as None.
 
+`AsyncGenerator[YieldType, ReturnType]`
+
 
 ## How to make generator functions
 define a function using the def keyword as usual, but instead of using return to return a value, you use the yield keyword to yield values one at a time.
