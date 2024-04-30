@@ -76,3 +76,12 @@ This project is based on the learning objectives - see the [LEARNING_OBJECTIVES]
 **Description:** Write a script that displays the number of documents in the collection school.<br>
 **Requirements**<br>
 - The database name will be passed as option of mongo command
+
+### 6. Update
+
+**File:** [6-update](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/NoSQL/6-update)<br>
+**Description:** Write a script that adds a new attribute to a document in the collection school.<br>
+**Requirements**<br>
+- The script should update only document with name="Holberton school" (all of them)
+- The update should add the attribute address with the value “972 Mission street”
+- The database name will be passed as option of mongo command
