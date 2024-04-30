@@ -1,9 +1,5 @@
 # Learning Objectives
 
-- [How to write an asynchronous generator](#How-to-write-an-asynchronous-generator)
-- [How to use async comprehensions](#How-to-use-async-comprehensions)
-- [How to type-annotate generators](#How-to-type-annotate-generators)
-
 - [What NoSQL means](#What-NoSQL-means)
 - [What is difference between SQL and NoSQL](#What-is-difference-between-SQL-and-NoSQL)
 - [What is ACID](#What-is-ACID)
