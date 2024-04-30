@@ -4,10 +4,7 @@ This module provides
 """
 
 
-from pymongo.collection import Collection
-
-
-def list_all(mongo_collection: Collection) -> list:
+def list_all(mongo_collection):
     """
     Lists all documents in a collection:
     """
