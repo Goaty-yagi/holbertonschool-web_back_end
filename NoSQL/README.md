@@ -68,3 +68,11 @@ This project is based on the learning objectives - see the [LEARNING_OBJECTIVES]
 **Description:** Write a script that lists all documents with name="Holberton school" in the collection school.<br>
 **Requirements**<br>
 - The database name will be passed as option of mongo command
+
+
+### 5. Count
+
+**File:** [5-count](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/NoSQL/5-count)<br>
+**Description:** Write a script that displays the number of documents in the collection school.<br>
+**Requirements**<br>
+- The database name will be passed as option of mongo command
