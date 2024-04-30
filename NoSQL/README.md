@@ -35,11 +35,11 @@ This project is based on the learning objectives - see the [LEARNING_OBJECTIVES]
 
 ## Practice Exercises
 
-### 0. Async Generator
+### 0. List all databases
 
-**File:** [0-basic_async_syntax.py](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/NoSQL/0-basic_async_syntax.py)<br>
-**Description:** Write a coroutine called async_generator that takes no arguments.<br>
-**Requirement:** <br>
-The coroutine will loop 10 times, each time asynchronously wait 1 second, then yield a random number between 0 and 10. Use the random module.
+**File:** [0-list_databases](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/NoSQL/0-list_databases)<br>
+**Description:** Write a script that lists all databases in MongoDB.<br>
 
+### 1. Create a database
 
+**File:** [1-use_or_create_database](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/NoSQL/1-use_or_create_database)<br>
