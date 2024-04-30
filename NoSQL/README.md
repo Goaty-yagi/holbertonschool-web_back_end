@@ -85,3 +85,11 @@ This project is based on the learning objectives - see the [LEARNING_OBJECTIVES]
 - The script should update only document with name="Holberton school" (all of them)
 - The update should add the attribute address with the value “972 Mission street”
 - The database name will be passed as option of mongo command
+
+
+### 7. Delete by match
+
+**File:** [7-delete](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/NoSQL/7-delete)<br>
+**Description:** Write a script that deletes all documents with name="Holberton school" in the collection school.<br>
+**Requirements**<br>
+- The database name will be passed as option of mongo command
