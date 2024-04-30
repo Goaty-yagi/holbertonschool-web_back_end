@@ -102,3 +102,13 @@ This project is based on the learning objectives - see the [LEARNING_OBJECTIVES]
 - Prototype: def list_all(mongo_collection):
 - Return an empty list if no document in the collection
 - mongo_collection will be the pymongo collection object
+
+
+### 9. Insert a document in Python
+
+**File:** [9-insert_school.py](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/NoSQL/9-insert_school.py)<br>
+**Description:** Write a Python function that inserts a new document in a collection based on kwargs.<br>
+**Requirements**<br>
+- Prototype: def insert_school(mongo_collection, **kwargs):
+- mongo_collection will be the pymongo collection object
+- Returns the new _id
