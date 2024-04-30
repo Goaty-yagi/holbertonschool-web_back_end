@@ -43,10 +43,20 @@ This project is based on the learning objectives - see the [LEARNING_OBJECTIVES]
 ### 1. Create a database
 
 **File:** [1-use_or_create_database](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/NoSQL/1-use_or_create_database)<br>
+**Description:** Write a script that creates or uses the database my_db.<br>
 
 ### 2. Insert document
 
 **File:** [2-insert](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/NoSQL/2-insert)<br>
+**Description:** Write a script that inserts a document in the collection school.<br>
 **Requirements**<br>
 - The document must have one attribute name with value “Holberton school”
+- The database name will be passed as option of mongo command
+
+
+### 3. All documents
+
+**File:** [3-all](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/NoSQL/3-all)<br>
+**Description:**Write a script that lists all documents in the collection school.<br>
+**Requirements**<br>
 - The database name will be passed as option of mongo command
