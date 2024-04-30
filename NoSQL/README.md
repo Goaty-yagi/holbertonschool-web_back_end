@@ -93,3 +93,12 @@ This project is based on the learning objectives - see the [LEARNING_OBJECTIVES]
 **Description:** Write a script that deletes all documents with name="Holberton school" in the collection school.<br>
 **Requirements**<br>
 - The database name will be passed as option of mongo command
+
+### 8. List all documents in Python
+
+**File:** [8-all.py](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/NoSQL/8-all.py)<br>
+**Description:** Write a Python function that lists all documents in a collection.<br>
+**Requirements**<br>
+- Prototype: def list_all(mongo_collection):
+- Return an empty list if no document in the collection
+- mongo_collection will be the pymongo collection object
