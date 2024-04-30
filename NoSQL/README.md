@@ -112,3 +112,16 @@ This project is based on the learning objectives - see the [LEARNING_OBJECTIVES]
 - Prototype: def insert_school(mongo_collection, **kwargs):
 - mongo_collection will be the pymongo collection object
 - Returns the new _id
+
+
+
+### 10. Change school topics
+
+**File:** [10-update_topics.py](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/NoSQL/10-update_topics.py)<br>
+**Description:** Write a Python function that changes all topics of a school document based on the name.<br>
+**Requirements**<br>
+- Prototype: def update_topics(mongo_collection, name, topics):
+- mongo_collection will be the pymongo collection object
+- name (string) will be the school name to update
+- topics (list of strings) will be the list of topics approached in the school
+
