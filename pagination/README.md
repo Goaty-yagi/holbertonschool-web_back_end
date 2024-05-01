@@ -39,4 +39,14 @@ This project is based on the learning objectives - see the [LEARNING_OBJECTIVES]
 - Page numbers are 1-indexed, i.e. the first page is page 1.
 
 
+### 1. Simple pagination
+
+**File:** [1-simple_pagination.py](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/pagination/1-simple_pagination.py)<br>
+**Description:** Implement a method named get_page that takes two integer arguments page with default value 1 and page_size with default value 10.<br>
+**Requirement:** <br>
+- You have to use this CSV file (same as the one presented at the top of the project)
+- Use assert to verify that both arguments are integers greater than 0.
+- Use index_range to find the correct indexes to paginate the dataset correctly and return the appropriate page of the dataset (i.e. the correct list of rows).
+- If the input arguments are out of range for the dataset, an empty list should be returned.
+
 
