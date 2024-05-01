@@ -75,6 +75,8 @@ adults = db.users.find({"age": {"$gte": 18}})
 ``` 
 
 ## How to insert/update/delete information from a NoSQL database
+
+pymongo https://pymongo.readthedocs.io/en/stable/
 ### Insert data
 ```python
 from pymongo import MongoClient

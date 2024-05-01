@@ -135,3 +135,20 @@ This project is based on the learning objectives - see the [LEARNING_OBJECTIVES]
 - mongo_collection will be the pymongo collection object
 - topic (string) will be topic searched
 
+
+### 12. Log stats
+
+**File:** [12-log_stats.py](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/NoSQL/12-log_stats.py)<br>
+**Description:** Write a Python script that provides some stats about Nginx logs stored in MongoDB.<br>
+**Requirements**<br>
+- Database: logs
+- Collection: nginx
+- Display (same as the example):
+ -- first line: x logs where x is the number of documents in this collection
+ -- second line: Methods:
+ -- 5 lines with the number of documents with the method = ["GET", "POST", "PUT", "PATCH", "DELETE"] in this order (see example below - warning: it’s a tabulation before each line)
+ -- one line with the number of documents with:
+  --- method=GET
+  --- path=/status
+
+
