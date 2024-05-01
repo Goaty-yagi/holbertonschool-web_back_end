@@ -24,6 +24,10 @@ This project follows the Pycodestyle (formerly known as pep8) code style guideli
 
 - **[python_async_comprehension](https://github.com/Goaty-yagi/holbertonschool-web_back_end/tree/main/python_async_comprehension):** Explore a wide range of python async comprehension.
 
+- **[NoSQL](https://github.com/Goaty-yagi/holbertonschool-web_back_end/tree/main/NoSQL):** Explore a wide range of NoSQL.
+
+- **[pagination](https://github.com/Goaty-yagi/holbertonschool-web_back_end/tree/main/pagination):** Explore a wide range of pagination.
+
 
 
 
