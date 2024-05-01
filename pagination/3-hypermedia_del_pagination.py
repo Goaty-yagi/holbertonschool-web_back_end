@@ -57,7 +57,6 @@ class Server:
             if index <= key:
                 data.append(value)
                 if len(data) == page_size:
-                    next_index = key
                     found = True
         return {
             'index': index,
