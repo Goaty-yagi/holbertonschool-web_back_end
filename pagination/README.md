@@ -66,4 +66,26 @@ Implement a get_hyper method that takes the same arguments (and defaults) as get
 - Make sure to reuse get_page in your implementation.
 - You can use the math module if necessary.
 
+### 3. Deletion-resilient hypermedia pagination
+
+**File:** [3-hypermedia_del_pagination.py](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/pagination/3-hypermedia_del_pagination.py)<br>
+**Description:** The goal here is that if between two queries, certain rows are removed from the dataset, the user does not miss items from dataset when changing page.<br>
+
+Start 3-hypermedia_del_pagination.py with this code:<br>
+Implement a get_hyper_index method with two integer arguments: index with a None default value and page_size with default value of 10.<br>
+**Requirement:** <br>
+- The method should return a dictionary with the following key-value pairs:
+ -- index: the current start index of the return page. That is the index of the first item in the current page. For example if requesting page 3 with page_size 20, and no data was removed from the dataset, the current index should be 60.
+ -- next_index: the next index to query with. That should be the index of the first item after the last item on the current page.
+ -- page_size: the current page size
+ -- data: the actual page of the dataset
+
+- Use assert to verify that index is in a valid range.
+- If the user queries index 0, page_size 10, they will get rows indexed 0 to 9 included.
+- If they request the next index (10) with page_size 10, but rows 3, 6 and 7 were deleted, the user should still receive rows indexed 10 to 19 included.
+
+
+- Make sure to reuse get_page in your implementation.
+- You can use the math module if necessary.
+
 
