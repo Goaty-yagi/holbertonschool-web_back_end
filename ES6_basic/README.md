@@ -64,7 +64,7 @@ I prefer const when I can. But sometimes let is okay
 bob@dylan:~$
 ```
 
-### 0. Const or let?
+### 1. Block Scope
 
 **File:** [1-block-scoped.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_basic/1-block-scoped.js)<br>
 **Description:** Given what you’ve read about var and hoisting, modify the variables inside the function taskBlock so that the variables aren’t overwritten inside the conditional block.<br>
@@ -94,5 +94,36 @@ bob@dylan:~$
 bob@dylan:~$ npm run dev 1-main.js
 [ false, true ]
 [ false, true ]
+bob@dylan:~$
+```
+
+### 2. Arrow functions
+
+**File:** [2-arrow.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_basic/2-arrow.js)<br>
+**Description:** Rewrite the following standard function to use ES6’s arrow syntax of the function add (it will be an anonymous function after)<br>
+**Requirement:** <br>
+
+```javascript
+export default function getNeighborhoodsList() {
+  this.sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
+
+  const self = this;
+  this.addNeighborhood = function add(newNeighborhood) {
+    self.sanFranciscoNeighborhoods.push(newNeighborhood);
+    return self.sanFranciscoNeighborhoods;
+  };
+}
+```
+
+```bash
+bob@dylan:~$ cat 2-main.js
+import getNeighborhoodsList from './2-arrow.js';
+
+const neighborhoodsList = new getNeighborhoodsList();
+const res = neighborhoodsList.addNeighborhood('Noe Valley');
+console.log(res);
+bob@dylan:~$
+bob@dylan:~$ npm run dev 2-main.js
+[ 'SOMA', 'Union Square', 'Noe Valley' ]
 bob@dylan:~$
 ```
