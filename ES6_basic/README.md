@@ -219,11 +219,45 @@ bob@dylan:~$ npm run dev 5-main.js
 bob@dylan:~$
 ```
 
-### 5. The wonders of spread syntax
+### 6. Take advantage of template literals
 
-**File:** [6-string-interpolation.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_basic/**File:** [6-string-interpolation.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_basic/3-default-parameter.js)<br>
-)<br>
+**File:** [6-string-interpolation.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_basic/6-string-interpolation.js)<br
 **Description:** Using spread syntax, concatenate 2 arrays and each character of a string by modifying the function below. Your function body should be one line long.<br>
+**Requirement:** <br>
+
+```javascript
+export default function getSanFranciscoDescription() {
+  const year = 2017;
+  const budget = {
+    income: '$119,868',
+    gdp: '$154.2 billion',
+    capita: '$178,479',
+  };
+
+  return 'As of ' + year + ', it was the seventh-highest income county in the United States'
+        / ', with a per capita personal income of ' + budget.income + '. As of 2015, San Francisco'
+        / ' proper had a GDP of ' + budget.gdp + ', and a GDP per capita of ' + budget.capita + '.';
+}
+```
+
+```bash
+bob@dylan:~$ cat 6-main.js
+import getSanFranciscoDescription from './6-string-interpolation.js';
+
+console.log(getSanFranciscoDescription());
+
+bob@dylan:~$
+bob@dylan:~$ npm run dev 6-main.js 
+As of 2017, it was the seventh-highest income county in the United States, with a per capita personal income of $119,868. As of 2015, San Francisco proper had a GDP of $154.2 billion, and a GDP per capita of $178,479.
+bob@dylan:~$
+```
+
+
+### 7. Object property value shorthand syntax
+
+**File:** [6-string-interpolation.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_basic/6-string-interpolation.js)<br
+**Description:** Notice how the keys and the variable names are the same?
+Modify the following function’s budget object to simply use the object property value shorthand syntax instead.<br>
 **Requirement:** <br>
 
 ```javascript
