@@ -192,3 +192,29 @@ bob@dylan:~$ npm run dev 4-main.js
 4
 bob@dylan:~$
 ```
+
+### 5. The wonders of spread syntax
+
+**File:** [3-default-parameter.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_basic/3-default-parameter.js)<br>
+**Description:** Using spread syntax, concatenate 2 arrays and each character of a string by modifying the function below. Your function body should be one line long.<br>
+**Requirement:** <br>
+
+```javascript
+export default function concatArrays(array1, array2, string) {}
+```
+
+```bash
+bob@dylan:~$ cat 5-main.js
+import concatArrays from './5-spread-operator.js';
+
+console.log(concatArrays(['a', 'b'], ['c', 'd'], 'Hello'));
+
+bob@dylan:~$
+bob@dylan:~$ npm run dev 5-main.js
+[
+  'a', 'b', 'c',
+  'd', 'H', 'e',
+  'l', 'l', 'o'
+]
+bob@dylan:~$
+```
