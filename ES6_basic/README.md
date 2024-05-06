@@ -393,3 +393,36 @@ bob@dylan:~$ npm run dev 10-main.js
 [ 'correctly-appended', 'correctly-fixed', 'correctly-displayed' ]
 bob@dylan:~$
 ```
+
+### 11. Iterator
+
+**File:** [11-createEmployeesObject.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_basic/11-createEmployeesObject.js)<br
+**Description:** Write a function named createEmployeesObject that will receive two arguments:
+- departmentName (String)
+- employees (Array of Strings)<br>
+```javascript
+export default function createEmployeesObject(departmentName, employees) {
+
+}
+```
+**Requirement:** <br>
+
+```javascript
+{
+     $departmentName: [
+          $employees,
+     ],
+}
+```
+
+```bash
+bob@dylan:~$ cat 11-main.js
+import createEmployeesObject from './11-createEmployeesObject.js';
+
+console.log(createEmployeesObject("Software", [ "Bob", "Sylvie" ]));
+
+bob@dylan:~$
+bob@dylan:~$ npm run dev 11-main.js 
+{ Software: [ 'Bob', 'Sylvie' ] }
+bob@dylan:~$
+```
