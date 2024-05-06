@@ -426,3 +426,55 @@ bob@dylan:~$ npm run dev 11-main.js
 { Software: [ 'Bob', 'Sylvie' ] }
 bob@dylan:~$
 ```
+
+### 12. Let's create a report object
+
+**File:** [12-createReportObject.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_basic/12-createReportObject.js)<br
+**Description:** Write a function named createReportObject whose parameter, employeesList, is the return value of the previous function createEmployeesObject.
+<br>
+
+```javascript
+export default function createReportObject(employeesList) {
+
+}
+```
+
+**Requirement:** <br>
+- createReportObject should return an object containing the key allEmployees and a method property called getNumberOfDepartments.<br>
+
+- allEmployees is a key that maps to an object containing the department name and a list of all the employees in that department. If you’re having trouble, use the spread syntax.<br>
+
+- The method property receives employeesList and returns the number of departments. I would suggest suggest thinking back to the ES6 method property syntax.<br>
+
+
+```javascript
+{
+  allEmployees: {
+     engineering: [
+          'John Doe',
+          'Guillaume Salva',
+     ],
+  },
+};
+```
+
+```bash
+bob@dylan:~$ cat 12-main.js
+import createEmployeesObject from './11-createEmployeesObject.js';
+import createReportObject from './12-createReportObject.js';
+
+const employees = {
+    ...createEmployeesObject('engineering', ['Bob', 'Jane']),
+    ...createEmployeesObject('marketing', ['Sylvie'])
+};      
+
+const report = createReportObject(employees);
+console.log(report.allEmployees);
+console.log(report.getNumberOfDepartments(report.allEmployees));
+
+bob@dylan:~$
+bob@dylan:~$ npm run dev 12-main.js 
+{ engineering: [ 'Bob', 'Jane' ], marketing: [ 'Sylvie' ] }
+2
+bob@dylan:~$
+```
