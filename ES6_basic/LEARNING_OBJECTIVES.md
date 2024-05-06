@@ -103,7 +103,7 @@ const rect2 = Rectangle(5, 10);
 console.log(rect2); // Output: undefined
 
 ```
-### Modules
+### 8, Modules
 ```javascript
 // ES6 (module.js)
 export function square(x) {
@@ -116,6 +116,29 @@ import { square } from './module';
 
 ```
 
+### 9,  ES6 computed property names
+```javascript
+const propName = 'foo';
+const obj = {
+  [propName]: 'bar'
+};
+
+console.log(obj); // Output: { foo: 'bar' }
+
+```
+### 10, ES6 method properties
+```javascript
+const person = {
+  firstName: 'John',
+  lastName: 'Doe',
+  fullName() {
+    return `${this.firstName} ${this.lastName}`;
+  }
+};
+
+console.log(person.fullName()); // Output: John Doe
+
+```
 ## The difference between a constant and a variable
 Constant is immutable variable, a variable is a variable
 ## Block-scoped variables
