@@ -255,7 +255,7 @@ bob@dylan:~$
 
 ### 7. Object property value shorthand syntax
 
-**File:** [6-string-interpolation.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_basic/6-string-interpolation.js)<br
+**File:** [7-getBudgetObject.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_basic/7-getBudgetObject.js)<br
 **Description:** Notice how the keys and the variable names are the same?
 Modify the following function’s budget object to simply use the object property value shorthand syntax instead.<br>
 **Requirement:** <br>
@@ -284,5 +284,40 @@ console.log(getSanFranciscoDescription());
 bob@dylan:~$
 bob@dylan:~$ npm run dev 6-main.js 
 As of 2017, it was the seventh-highest income county in the United States, with a per capita personal income of $119,868. As of 2015, San Francisco proper had a GDP of $154.2 billion, and a GDP per capita of $178,479.
+bob@dylan:~$
+```
+
+### 8. No need to create empty objects before adding in properties
+
+**File:** [8-getBudgetCurrentYear.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_basic/8-getBudgetCurrentYear.js)<br
+**Description:** Rewrite the getBudgetForCurrentYear function to use ES6 computed property names on the budget object.<br>
+**Requirement:** <br>
+
+```javascript
+function getCurrentYear() {
+  const date = new Date();
+  return date.getFullYear();
+}
+
+export default function getBudgetForCurrentYear(income, gdp, capita) {
+  const budget = {};
+
+  budget[`income-${getCurrentYear()}`] = income;
+  budget[`gdp-${getCurrentYear()}`] = gdp;
+  budget[`capita-${getCurrentYear()}`] = capita;
+
+  return budget;
+}
+```
+
+```bash
+bob@dylan:~$ cat 8-main.js
+import getBudgetForCurrentYear from './8-getBudgetCurrentYear.js';
+
+console.log(getBudgetForCurrentYear(2100, 5200, 1090));
+
+bob@dylan:~$
+bob@dylan:~$ npm run dev 8-main.js 
+{ 'income-2021': 2100, 'gdp-2021': 5200, 'capita-2021': 1090 }
 bob@dylan:~$
 ```
