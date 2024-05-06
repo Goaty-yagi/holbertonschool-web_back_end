@@ -163,3 +163,32 @@ bob@dylan:~$ npm run dev 3-main.js
 41
 bob@dylan:~$
 ```
+
+### 4. Rest parameter syntax for functions
+
+**File:** [4-rest-parameter.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_basic/4-rest-parameter.js)<br>
+**Description:** Modify the following function to return the number of arguments passed to it using the rest parameter syntax<br>
+**Requirement:** <br>
+
+```javascript
+export default function returnHowManyArguments() {}
+```
+
+```javascript
+> returnHowManyArguments("Hello", "Holberton", 2020);
+3
+>
+```
+
+```bash
+bob@dylan:~$ cat 4-main.js
+import returnHowManyArguments from './4-rest-parameter.js';
+
+console.log(returnHowManyArguments("one"));
+console.log(returnHowManyArguments("one", "two", 3, "4th"));
+bob@dylan:~$
+bob@dylan:~$ npm run dev 4-main.js
+1
+4
+bob@dylan:~$
+```
