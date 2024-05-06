@@ -363,3 +363,33 @@ $20
 20 euros
 bob@dylan:~$
 ```
+
+
+### 10. For...of Loops
+
+**File:** [10-loops.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_basic/10-loops.js)<br
+**Description:** Rewrite the function appendToEachArrayValue to use ES6’s for...of operator. And don’t forget that var is not ES6-friendly.<br>
+**Requirement:** <br>
+
+```javascript
+export default function appendToEachArrayValue(array, appendString) {
+  for (var idx in array) {
+    var value = array[idx];
+    array[idx] = appendString + value;
+  }
+
+  return array;
+}
+```
+
+```bash
+bob@dylan:~$ cat 10-main.js
+import appendToEachArrayValue from './10-loops.js';
+
+console.log(appendToEachArrayValue(['appended', 'fixed', 'displayed'], 'correctly-'));
+
+bob@dylan:~$
+bob@dylan:~$ npm run dev 10-main.js 
+[ 'correctly-appended', 'correctly-fixed', 'correctly-displayed' ]
+bob@dylan:~$
+```
