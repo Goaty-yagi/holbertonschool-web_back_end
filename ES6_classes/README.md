@@ -64,3 +64,18 @@ This project is based on the learning objectives - see the [LEARNING_OBJECTIVES]
 - Each attribute must be stored in an “underscore” attribute version (ex: name is stored in _name)
 - Implement a getter and setter for each attribute.
 - Implement a method named displayFullCurrency that will return the attributes in the following format name (code).
+
+
+### 4. Pricing
+
+**File:** [4-pricing.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_classes/4-pricing.js)<br>
+**Description:** Import the class Currency from 3-currency.js<br>
+Implement a class named Pricing:<br>
+**Requirement:** <br>
+- Constructor attributes:
+ -- amount (Number)
+ -- currency (Currency)
+- Each attribute must be stored in an “underscore” attribute version (ex: name is stored in _name)
+- Implement a getter and setter for each attribute.
+- Implement a method named displayFullPrice that returns the attributes in the following format amount currency_name (currency_code).
+- Implement a static method named convertPrice. It should accept two arguments: amount (Number), conversionRate (Number). The function should return the amount multiplied by the conversion rate.
