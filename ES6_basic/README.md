@@ -1,6 +1,6 @@
 # ES6 Basics
+ES6 Basics" is a repository dedicated to exploring and mastering the fundamental features introduced in ECMAScript 2015 (ES6), the sixth edition of the JavaScript language specification. From block-scoped variables to arrow functions, classes, and modules, this repository provides concise code examples and explanations to help developers grasp the core concepts of modern JavaScript development.
 
-This repository contains examples and resources for using variable annotations in Python. Variable annotations are a feature introduced in Python 3.6 that allow you to explicitly specify the types of variables in your code, enhancing readability and enabling static type checking.
 
 ## Table of Contents
 
