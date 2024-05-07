@@ -24,42 +24,10 @@ This project is based on the learning objectives - see the [LEARNING_OBJECTIVES]
 
 ## Practice Exercises
 
-### 0. Const or let?
+### 0. You used to attend a place like this at some point
 
-**File:** [0-constants.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_classes/0-constants.js)<br>
-**Description:** Modify<br>
-
-function taskFirst to instantiate variables using const<br>
-function taskNext to instantiate variables using let<br>
+**File:** [0-classroom.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_classes/0-classroom.js)<br>
+**Description:** Implement a class named ClassRoom:<br>
 **Requirement:** <br>
-
-```javascript
-export function taskFirst() {
-  var task = 'I prefer const when I can.';
-  return task;
-}
-
-export function getLast() {
-  return ' is okay';
-}
-
-export function taskNext() {
-  var combination = 'But sometimes let';
-  combination += getLast();
-
-  return combination;
-}
-```
-
-```javascript
-bob@dylan:~$ cat 0-main.js
-import { taskFirst, taskNext } from './0-constants.js';
-
-console.log(`${taskFirst()} ${taskNext()}`);
-
-bob@dylan:~$
-bob@dylan:~$ npm run dev 0-main.js
-I prefer const when I can. But sometimes let is okay
-bob@dylan:~$
-```
-
+- Prototype: export default class ClassRoom
+- It should accept one attribute named maxStudentsSize (Number) and assigned to _maxStudentsSize
