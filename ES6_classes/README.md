@@ -52,3 +52,15 @@ This project is based on the learning objectives - see the [LEARNING_OBJECTIVES]
 - Make sure to verify the type of attributes during object creation
 - Each attribute must be stored in an “underscore” attribute version (ex: name is stored in _name)
 - Implement a getter and setter for each attribute.
+
+### 3. Methods, static methods, computed methods names..... MONEY
+
+**File:** [3-currency.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_classes/3-currency.js)<br>
+**Description:** Implement a class named Currency:<br>
+**Requirement:** <br>
+- Constructor attributes:
+ -- code (String)
+ -- name (String)
+- Each attribute must be stored in an “underscore” attribute version (ex: name is stored in _name)
+- Implement a getter and setter for each attribute.
+- Implement a method named displayFullCurrency that will return the attributes in the following format name (code).
