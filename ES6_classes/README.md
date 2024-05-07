@@ -31,3 +31,10 @@ This project is based on the learning objectives - see the [LEARNING_OBJECTIVES]
 **Requirement:** <br>
 - Prototype: export default class ClassRoom
 - It should accept one attribute named maxStudentsSize (Number) and assigned to _maxStudentsSize
+
+### 1. Let's make some classrooms
+
+**File:** [1-make_classrooms.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_classes/1-make_classrooms.js)<br>
+**Description:** Import the ClassRoom class from 0-classroom.js.<br>
+**Requirement:** <br>
+- Implement a function named initializeRooms. It should return an array of 3 ClassRoom objects with the sizes 19, 20, and 34 (in this order).
