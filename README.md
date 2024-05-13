@@ -28,7 +28,11 @@ This project follows the Pycodestyle (formerly known as pep8) code style guideli
 
 - **[pagination](https://github.com/Goaty-yagi/holbertonschool-web_back_end/tree/main/pagination):** Explore a wide range of pagination.
 
+- **[ES6_basic](https://github.com/Goaty-yagi/holbertonschool-web_back_end/tree/main/ES6_basic):** Explore a wide range of ES6_basic.
 
+- **[ES6_classes](https://github.com/Goaty-yagi/holbertonschool-web_back_end/tree/main/ES6_classes):** Explore a wide range of ES6_classes.
+
+- **[ES6_promise](https://github.com/Goaty-yagi/holbertonschool-web_back_end/tree/main/ES6_promise):** Explore a wide range of ES6_promise.
 
 
 ## Getting Started
