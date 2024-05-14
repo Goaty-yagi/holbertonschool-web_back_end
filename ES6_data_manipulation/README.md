@@ -37,3 +37,23 @@ This project is based on the learning objectives - see the [LEARNING_OBJECTIVES]
  -- James, id: 2, in Columbia
  -- Serena, id: 5, in San Francisco
 
+
+ ### 1. More mapping
+
+**File:** [1-get_list_student_ids.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_data_manipulation/1-get_list_student_ids.js)<br>
+**Description:** Create a function getListStudentIds that returns an array of ids from a list of object.<br>
+**Requirement:** <br>
+- This function is taking one argument which is an array of objects - and this array is the same format as getListStudents from the previous task.
+- 
+- If the argument is not an array, the function is returning an empty array.
+- 
+- You must use the map function on the array.
+
+### 2. Filter
+
+**File:** [2-get_students_by_loc.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_data_manipulation/2-get_students_by_loc.js)<br>
+**Description:** Create a function getStudentsByLocation that returns an array of objects who are located in a specific city.<br>
+**Requirement:** <br>
+- It should accept a list of students (from getListStudents) and a city (string) as parameters.
+
+- You must use the filter function on the array.
