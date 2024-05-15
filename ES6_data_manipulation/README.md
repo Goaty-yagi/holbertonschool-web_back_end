@@ -102,3 +102,11 @@ This project is based on the learning objectives - see the [LEARNING_OBJECTIVES]
 **Description:** Create a function named setFromArray that returns a Set from an array.<br>
 **Requirement:** <br>
 - It accepts an argument (Array, of any kind of element).
+
+
+### 7. More set data structure
+
+**File:** [7-has_array_values.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_data_manipulation/7-has_array_values.js)<br>
+**Description:** Create a function named hasValuesFromArray that returns a boolean if all the elements in the array exist within the set.<br>
+**Requirement:** <br>
+- It accepts two arguments: a set (Set) and an array (Array).
