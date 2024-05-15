@@ -119,3 +119,35 @@ This project is based on the learning objectives - see the [LEARNING_OBJECTIVES]
 **Requirement:** <br>
 - It accepts two arguments: a set (Set) and a startString (String).
 - When a value starts with startString you only append the rest of the string. The string contains all the values of the set separated by -.
+
+
+### 9. Map data structure
+
+**File:** [9-groceries_list.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_data_manipulation/9-groceries_list.js)<br>
+**Description:** Create a function named groceriesList that returns a map of groceries with the following items (name, quantity):<br>
+```bash
+Apples, 10
+Tomatoes, 10
+Pasta, 1
+Rice, 1
+Banana, 5
+```
+**Requirement:** <br>
+- Result
+```bash
+bob@dylan:~$ cat 9-main.js
+import groceriesList from "./9-groceries_list.js";
+
+console.log(groceriesList());
+
+bob@dylan:~$ 
+bob@dylan:~$ npm run dev 9-main.js 
+Map {
+  'Apples' => 10,
+  'Tomatoes' => 10,
+  'Pasta' => 1,
+  'Rice' => 1,
+  'Banana' => 5
+}
+bob@dylan:~$ 
+```
