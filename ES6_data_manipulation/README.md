@@ -151,3 +151,14 @@ Map {
 }
 bob@dylan:~$ 
 ```
+
+
+### 10. More map data structure
+
+**File:** [10-update_uniq_items.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_data_manipulation/10-update_uniq_items.js)<br>
+**Description:** Create a function named updateUniqueItems that returns an updated map for all items with initial quantity at 1.<br>
+
+**Requirement:** <br>
+- It should accept a map as an argument. The map it accepts for argument is similar to the map you create in the previous task.
+
+- For each entry of the map where the quantity is 1, update the quantity to 100. If updating the quantity is not possible (argument is not a map) the error Cannot process should be thrown.
