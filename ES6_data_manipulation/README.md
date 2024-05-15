@@ -110,3 +110,12 @@ This project is based on the learning objectives - see the [LEARNING_OBJECTIVES]
 **Description:** Create a function named hasValuesFromArray that returns a boolean if all the elements in the array exist within the set.<br>
 **Requirement:** <br>
 - It accepts two arguments: a set (Set) and an array (Array).
+
+
+### 8. Clean set
+
+**File:** [8-clean_set.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_data_manipulation/8-clean_set.js)<br>
+**Description:** Create a function named cleanSet that returns a string of all the set values that start with a specific string (startString).<br>
+**Requirement:** <br>
+- It accepts two arguments: a set (Set) and a startString (String).
+- When a value starts with startString you only append the rest of the string. The string contains all the values of the set separated by -.
