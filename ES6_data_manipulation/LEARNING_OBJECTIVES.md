@@ -53,6 +53,10 @@ uint8Array[3] = 40;
 
 // Access values in the Uint8Array
 console.log(uint8Array); // Uint8Array [ 10, 20, 30, 40 ]
+
+// Another way with DataView
+const view = new DataView(buffer);
+  view.setInt8(position, value);
 ```
 ## The Set, Map, and Weak link data structures
 The Set, Map, and WeakMap are data structures introduced in ES6 (ECMAScript 2015) to efficiently manage collections of unique values or key-value pairs
