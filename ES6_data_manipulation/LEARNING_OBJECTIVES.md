@@ -28,6 +28,32 @@ const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentV
 ```
 ## Typed arrays
 Typed arrays are a special type of array-like object provided by JavaScript to handle binary data in a more efficient manner. Unlike regular arrays, which can hold various types of data, typed arrays are designed to hold a single data type and are optimized for performance.
+
+### ArrayBuffer
+It is a buffer to store binary data which is read only.
+```javascript
+// Create a new ArrayBuffer with a byte length of 8
+const buffer = new ArrayBuffer(8);
+```
+
+### typed array views
+ provide a structured way to access and manipulate binary data stored in an ArrayBuffer. These views allow you to interpret the raw binary data in the ArrayBuffer as arrays of specific data types, such as integers or floating-point numbers.
+```javascript
+// Create a new ArrayBuffer with a byte length of 4
+const buffer = new ArrayBuffer(4);
+
+// Create a Uint8Array view into the buffer
+const uint8Array = new Uint8Array(buffer);
+
+// Set values in the Uint8Array
+uint8Array[0] = 10;
+uint8Array[1] = 20;
+uint8Array[2] = 30;
+uint8Array[3] = 40;
+
+// Access values in the Uint8Array
+console.log(uint8Array); // Uint8Array [ 10, 20, 30, 40 ]
+```
 ## The Set, Map, and Weak link data structures
 The Set, Map, and WeakMap are data structures introduced in ES6 (ECMAScript 2015) to efficiently manage collections of unique values or key-value pairs
 

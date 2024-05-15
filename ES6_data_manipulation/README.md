@@ -70,7 +70,7 @@ This project is based on the learning objectives - see the [LEARNING_OBJECTIVES]
 
 ### 4. Combine
 
-**File:** [3-get_ids_sum.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_data_manipulation/3-get_ids_sum.js)<br>
+**File:** [4-update_grade_by_city.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_data_manipulation/4-update_grade_by_city.js)<br>
 **Description:** Create a function updateStudentGradeByCity that returns an array of students for a specific city with their new grade.<br>
 **Requirement:** <br>
 - It should accept a list of students (from getListStudents), a city (String), and newGrades (Array of “grade” objects) as parameters.
@@ -85,3 +85,12 @@ This project is based on the learning objectives - see the [LEARNING_OBJECTIVES]
 - If a student doesn’t have grade in newGrades, the final grade should be N/A.
 
 - You must use filter and map combined.
+
+
+### 5. Typed Arrays
+
+**File:** [5-typed_arrays.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_data_manipulation/5-typed_arrays.js)<br>
+**Description:** Create a function named createInt8TypedArray that returns a new ArrayBuffer with an Int8 value at a specific position.<br>
+**Requirement:** <br>
+- It should accept three arguments: length (Number), position (Number), and value (Number).
+- If adding the value is not possible the error Position outside range should be thrown.
