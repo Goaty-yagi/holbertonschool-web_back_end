@@ -94,3 +94,11 @@ This project is based on the learning objectives - see the [LEARNING_OBJECTIVES]
 **Requirement:** <br>
 - It should accept three arguments: length (Number), position (Number), and value (Number).
 - If adding the value is not possible the error Position outside range should be thrown.
+
+
+### 6. Set data structure
+
+**File:** [6-set.js](https://github.com/Goaty-yagi/holbertonschool-web_back_end/blob/main/ES6_data_manipulation/6-set.js)<br>
+**Description:** Create a function named setFromArray that returns a Set from an array.<br>
+**Requirement:** <br>
+- It accepts an argument (Array, of any kind of element).
